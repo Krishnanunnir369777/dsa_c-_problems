@@ -30,7 +30,7 @@ int allocate(vector<int> arr, int n,int m){
     int ans=-1;
     int mid=s+(e-s)/2;
     while(s<=e){
-        if(isPossible(arr,n,m,mid)){
+        if(ispossible(arr,n,m,mid)){
             ans=mid;
             e=mid-1;
         }
@@ -43,6 +43,7 @@ int allocate(vector<int> arr, int n,int m){
 }
 
 int main(){
-    int arr[4]={12, 34, 67, 90};
+    vector arr[4]={12, 34, 67, 90};
     int n=4;
+
 }
