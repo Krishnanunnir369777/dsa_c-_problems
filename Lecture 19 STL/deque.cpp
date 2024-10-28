@@ -23,6 +23,4 @@ int main(){
    cout<<d.size()<<endl;
 
 
-
-
 }
