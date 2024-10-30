@@ -13,7 +13,7 @@ int  sorted_rotated(int arr[],int n){
     return count;
 }
 int main(){
-    int arr[5]={1,1,1,1,1};
+    int arr[5]={3,4,5,1,2};
     int n=5;
     int ans=sorted_rotated(arr,n);
     if(ans==1 or ans<1){
