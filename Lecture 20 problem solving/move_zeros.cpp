@@ -15,6 +15,16 @@ void print(int arr[],int n){
         cout<<arr[i]<<" ";
     }
 }
+void move_zeros(int arr[],int n){
+    int i=0;
+    for(int j=0;j<n;j++){
+        if(arr[j]!=0){
+            swap(arr[j],arr[i]);
+            i++;
+        }
+    }
+
+}
 
 int main(){
     int arr[5]={0,0,2,0,9};
