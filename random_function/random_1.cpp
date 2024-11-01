@@ -1,76 +1,42 @@
 
 #include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
+int check_palindrome(char name[],int n){
+    int ans=1;
+    int s=0;
+    int e=n-1;
+    while(s<e){
+        if(name[s]!=name[e]){
+            ans=0;
+            break;
+        }
+        s++;
+        e--;
 
-vector<int> reverse(vector<int> v) {
-    
-    int s = 0;
-    int e = v.size()-1;
-    
-    while(s<e)
-    {
-        swap(v[s++], v[e--]);
     }
-    return v;
+    return ans;
+
 }
-
-vector<int> findArraySum(vector<int>&a, int n, vector<int>&b, int m) {
-	
-    int i = n-1;
-    int j = m-1;
-    vector<int> ans;
-    int carry = 0;
-    
-    while(i>=0 && j>=0) {
-        int val1 = a[i];
-        int val2 = b[j];
-            
-        int sum = val1 + val2 + carry;   
-        
-        carry = sum/10;
-        sum = sum%10;
-        ans.push_back(sum);
-        i--;
-        j--;
+int getlength(char name[]){
+    int count=0;
+    for(int i=0;name[i] !='\0';i++){//till get null character 
+        count++;
     }
-    
-    // first case
-    while(i>=0) {
-        int sum = a[i] + carry;
-        carry = sum/10;
-        sum = sum%10;
-        ans.push_back(sum);
-        i--;
-    }
-    
-     // second case
-    while(j>=0) {
-        int sum = b[j] + carry;
-        carry = sum/10;
-        int value = sum%10;
-        ans.push_back(value);
-        j--;
-    }
-    
-     // second case
-    while(carry != 0) {
-        int sum = carry;
-        carry = sum/10;
-        sum = sum%10;
-        ans.push_back(sum);
-    }
-    
-    //print(ans);
-    return reverse(ans);
+    return count;
 }
 
 int main(){
-    
-
-
-
+  
+    char arr[]="krur";    // Only 5 characters
+    int n=getlength(arr);
+    if(check_palindrome(arr,n)){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
 
 
 }

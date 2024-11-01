@@ -17,6 +17,6 @@ int main(){
     for(int i=0;i<n;i++){
        s[i]= to_lower_case(s[i]);
     }
-    cout<<s[1];
+    cout<<s[0];
 
 }
