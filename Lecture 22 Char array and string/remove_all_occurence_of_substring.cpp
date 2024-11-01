@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     string s;
-    cin>>s;
+    cin>>s; 
     string part;
     cin>>part;
     cout<<s.find(part)<<endl;
