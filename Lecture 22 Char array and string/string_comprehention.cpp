@@ -21,6 +21,7 @@ int main(){
         }
         i=j;
     }
+    
     cout<<ansIndex;
     
 }
