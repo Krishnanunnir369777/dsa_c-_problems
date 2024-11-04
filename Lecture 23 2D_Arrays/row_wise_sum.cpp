@@ -8,6 +8,21 @@ void print_sum(int arr[][3],int row,int col){
         }
         cout<<sum<<" ";
     }
+  
+}
+int largestRowSum(int arr[][3],int row,int col){
+    int maxi=INT_MIN;
+    for(int row=0;row<3;row++){
+        int sum=0;
+        for(int col=0;col<3;col++){
+            sum+=arr[row][col];
+
+        }
+        if(sum>maxi){
+            maxi=sum;
+        }
+    }
+    return maxi;
 }
 int main(){
     int arr[3][3];
