@@ -23,13 +23,13 @@ void print_spiral(int arr[][3]){
             cout<<arr[index][endingCol]<<" ";
             count++;
         }
-        endingCol++;
+        endingCol--;
         //ending row
         for(int index=endingCol; count<total && index>=startingCol;index-- ){
             cout<<arr[endingRow][index];
             count++;
         }
-        endingRow++;
+        endingRow--;
         //starting column
         for(int index=endingRow;count<total && index>=startingRow;index++){
             cout<<arr[index][startingCol];
