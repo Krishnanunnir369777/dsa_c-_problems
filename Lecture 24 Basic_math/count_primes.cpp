@@ -17,6 +17,7 @@ int my_count_func(int n){//complexity is O(log(n*2))
             else{
                 cnt=1;
             }
+            
         }
         if(cnt==1){
             count+=1;
@@ -42,4 +43,5 @@ int main(){
     int n;
     cin>>n;
     cout<<optimised_function(n);
+
 }
