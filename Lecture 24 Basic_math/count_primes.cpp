@@ -32,9 +32,10 @@ int optimised_function(int n){  //complexity O(n*log(log(n)))
     for(int i=2;i<n;i++){
         if(name[i]){
             cnt++;
+            for(int j=2*i;j<n;j=j+i){
+                name[j]=0;
         }
-        for(int j=2*i;j<n;j=j+i){
-            name[j]=0;
+            
         }
     }
     return cnt;
