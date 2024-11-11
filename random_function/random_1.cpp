@@ -13,5 +13,5 @@ int main(){
     cout<<"address "<<ans<<endl;
     cout<<"value of num "<<*ans<<endl;
     cout<<"adress of ans "<<&ans;
-
+    cout<<
 }

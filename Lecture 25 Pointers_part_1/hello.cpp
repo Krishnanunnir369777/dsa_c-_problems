@@ -21,6 +21,11 @@ int main(){
     cout<<*p<<endl;
 
 
+
+    cout<<"size of integer is "<<sizeof(num)<<endl;
+    cout<<"size of pointer is "<<sizeof(ptr)<<endl;
+
+
     int *q=0;
     q=&num;
     cout<<q<<endl;
