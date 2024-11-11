@@ -2,15 +2,16 @@
 using namespace std;
 
 
-int pivot_index(int arr[],int n){
-    
+void increase_sum(int a){
+    int b=5;
+    cout<<"hello"<<endl;
+    a=a+b;
 }
 int main(){
-    int arr[3]={2,1,-1};
-    int n=3;
-    int ans=pivot_index(arr,n);
-
-    cout<<ans;;
+    int a=3;
+    increase_sum(a);
+    cout<<a;
+   
     
     
      

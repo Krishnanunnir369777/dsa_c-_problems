@@ -11,6 +11,7 @@ int main(){
     int *ptr=&num;
     cout<<"value is "<<*ptr<<endl;
     cout<<ptr<<endl;
+    cout<<"address of pointer "<<&ptr<<endl;
     
 
 

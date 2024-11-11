@@ -2,21 +2,16 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-int modular_exponentation(int x,int n,int m){
-    int res=1;
-    while(n>0){
-        if(n&1){
-            //odd
-            res=(1LL*(res) *(x)%m)%m;
-        }
-        x=(1LL*(x)%m *(x)%m)%m;
-        n=n>>1;
-    }
-    return res;
-}
+
+
+
 
 int main(){
-   
+    int num=3;
+    int *ans=&num;
+    cout<<"adress of num "<<&num<<endl;
+    cout<<"address "<<ans<<endl;
+    cout<<"value of num "<<*ans<<endl;
+    cout<<"adress of ans "<<&ans;
 
-    
 }
