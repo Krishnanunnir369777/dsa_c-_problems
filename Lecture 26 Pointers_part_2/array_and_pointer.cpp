@@ -6,13 +6,13 @@ int main(){
     int arr[10]={2,7,3,6};
     cout<<"address of 0Th location "<<arr<<endl;
     cout<<"address of 0Th location "<<&arr[0]<<endl;
-    cout<<*arr<<endl;
-   
-    cout<<*(arr+1)<<endl;
+    cout<<"value at 0th location "<<*arr<<endl;
+    
+    cout<<"value at 1th location "<<*(arr+1)<<endl;
 
     cout<<"-------------"<<endl;
     int i=3;
-    cout<<i[arr]<<endl;//note this 
+    cout<<i[arr]<<endl;//note this  we can write arr[i] as i[arr]
     
     cout<<"-------------"<<endl;
     int *p=arr;
@@ -39,7 +39,6 @@ int main(){
 
 
     int z[10]={0};
-
     cout<<z<<endl;
     // z=z+1; erroe will come 
     int *ptr=z;
