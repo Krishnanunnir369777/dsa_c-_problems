@@ -14,7 +14,9 @@ int main(){
     int k=3;
     int arr1[n]={0};
     rotate_array(arr,n,k,arr1);
-    cout<<arr1[6];
+    for(int i=0;i<n;i++){
+        cout<<arr1[i]<<endl;
+    }
     
 
 }
