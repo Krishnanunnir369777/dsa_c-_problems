@@ -2,9 +2,7 @@
 using namespace std;
 #include <bits/stdc++.h>
 
-#include <iostream>
-#include <vector>
-using namespace std;
+
 
 int maxProfitRec(vector<int> &price, int start, int end) {
     int res = 0;
