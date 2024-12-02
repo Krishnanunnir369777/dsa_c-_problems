@@ -6,13 +6,22 @@ int main(){
     int num=5;
     int *ptr=&num;
 
-    cout<<&num<<endl;
+    
     int *q=ptr;
-    cout<<(&ptr)<<endl;
-    cout<<q;
-
-
+    
+    cout<<(ptr)<<" - "<<(q)<<endl;
+    cout<<(*ptr)<<" - "<<*q<<endl;
     
 
+    int i=3;
+    int *t=&i;
+    *t+=1;
+    cout<<*t<<endl;
+    cout<<"before t "<<t<<endl;
+    t=t+1;
+    cout<<"after t "<<t<<endl;
+    
+    
+    
 
 }

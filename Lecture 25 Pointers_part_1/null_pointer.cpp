@@ -16,16 +16,14 @@ int main(){
 
 
 
-
     int num=2;
+    int a=num;
+    a++;
+    cout<<num<<endl;
     int *p=&num;
     cout<<"before "<<num<<endl;
     (*p)++;
     cout<<"after "<<num<<endl;
-
-
-
-
 
 
 
