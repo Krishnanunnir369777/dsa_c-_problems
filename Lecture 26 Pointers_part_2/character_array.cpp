@@ -11,16 +11,15 @@ int main(){
     
     char *c=&ch[0];
     //print entire string
-    cout<<c<<endl;
+    cout<<"addres "<<&ch<<endl;
+    cout<<*c<<endl;
     
 
-    /*char temp='z';
-    char *p=&temp;
-
-    cout<<p<<endl;
-    */
+    
     char temp='z';
     char *p=&temp;
-    cout<<p;
+    cout<<p<<endl;
+   
+   
 
 }
