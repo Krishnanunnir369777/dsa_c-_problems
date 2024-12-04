@@ -6,10 +6,10 @@ void update(int **p2){
    // p=p+1; // no change
     //cout<<"inside "<<p<<endl;
 
-    *p2=*p2+1; //changed
+    //*p2=*p2+1; //changed
 
 
-    //**p=**p+1;
+    **p2=**p2+1;//changed
 
 }
 int main(){
