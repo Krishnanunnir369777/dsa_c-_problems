@@ -1,15 +1,12 @@
-
 #include <iostream>
-#include <bits/stdc++.h>
+#include <vector>
+#include <cmath>
+#include <cstdlib>
 using namespace std;
 
 
-
+    
 
 int main(){
-    int n=5;
-    int *p=&n;
-    int **a=&p;
-    cout<<&p<<endl;
-    cout<<a<<endl;
+    cout<<5%2;
 }
