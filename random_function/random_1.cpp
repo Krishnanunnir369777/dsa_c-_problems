@@ -8,5 +8,5 @@ using namespace std;
     
 
 int main(){
-    cout<<5%2;
+    cout<<1%10;
 }
