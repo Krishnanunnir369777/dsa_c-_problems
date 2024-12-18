@@ -40,5 +40,8 @@ int main(){
         cout<<*i<<" "<<endl;
     }
     //cout<<a.begin()<<endl;
+    for(auto i:a){
+        cout<<i<<" ";
+    }
   
 }

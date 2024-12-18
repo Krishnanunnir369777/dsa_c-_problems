@@ -20,6 +20,6 @@ int main(){
     
 
     cout<<"after erase "<<endl;
-    for()
+    
 
 }
