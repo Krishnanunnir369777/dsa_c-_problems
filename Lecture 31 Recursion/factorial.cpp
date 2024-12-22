@@ -12,6 +12,8 @@ int factorial(int n ){
 
    // recursive call
     return factorial(n-1)*n;         /// time complexity here is O(n)
+                                     // space complexity here is O(n)
+
 }
 int main(){
 

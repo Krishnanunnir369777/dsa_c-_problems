@@ -2,7 +2,7 @@
 using namespace std;
 
 
-bool func(int *arr,int s,int e,int k){
+bool func(int *arr,int s,int e,int k){    // space complexity O(log(n))
 
     // base case
     if(s>e){
