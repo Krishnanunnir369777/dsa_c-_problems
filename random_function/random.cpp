@@ -19,5 +19,5 @@ int main() {
     int n;
     cin>>n;
     vector<int> x;
-    for()
+    
 }

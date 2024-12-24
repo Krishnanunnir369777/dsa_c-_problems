@@ -10,11 +10,10 @@ int factorial(int n ){
         return 1;
     }
 
-    
-    
+   // recursive call
+    return factorial(n-1)*n;         /// time complexity here is O(n)
+                                     // space complexity here is O(n)
 
-
-    return factorial(n-1)*n;
 }
 int main(){
 

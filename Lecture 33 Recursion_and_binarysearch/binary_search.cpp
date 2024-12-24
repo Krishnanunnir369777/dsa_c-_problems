@@ -2,7 +2,7 @@
 using namespace std;
 
 
-bool func(int *arr,int s,int e,int k){
+bool func(int *arr,int s,int e,int k){    // space complexity O(log(n))
 
     // base case
     if(s>e){
@@ -26,7 +26,7 @@ bool func(int *arr,int s,int e,int k){
 
 int main(){
     int arr[5]={1,2,3,4,5};
-    int n=5;
-    int k=8;
-    cout<<func(arr,0,5,k);
+    int n=4;
+    int k=2;
+    cout<<func(arr,0,n,k);
 }
