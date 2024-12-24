@@ -13,10 +13,6 @@ void func(int selection[],int n){
 
 int main(){
 
-
-    cout<<2/10;
     
-
-
     
 }
